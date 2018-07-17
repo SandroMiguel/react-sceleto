@@ -38,6 +38,7 @@ your-app/
 |   |—— registerServiceWorker.js
 |
 |—— .gitignore
+|—— .editorconfig
 |—— package.json
 |—— README.md
 |—— yarn.lock
