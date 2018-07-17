@@ -27,9 +27,6 @@ your-app/
 |   |   |—— [somefile].png
 |   |   |—— [somefile].svg
 |   |   |—— ...
-|   |—— styles/
-|   |   |—— [somefile].scss
-|   |   |—— ...
 |   |—— utils/
 |   |   |—— [somefile].js
 |   |   |—— ...
