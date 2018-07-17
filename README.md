@@ -24,11 +24,11 @@ your-app/
 |   |   |—— [OtherComponent/]
 |   |   |—— ...
 |   |—— assets/
-|   |   |—— [somefile].png
-|   |   |—— [somefile].svg
+|   |   |—— [some_file].png
+|   |   |—— [some_file].svg
 |   |   |—— ...
 |   |—— utils/
-|   |   |—— [somefile].js
+|   |   |—— [someFile].js
 |   |   |—— ...
 |   |—— index.js
 |   |—— index.css

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './assets/react-sceleto.png';
+import logo from './assets/react_sceleto.png';
 import './App.css';
 
 class App extends Component {
