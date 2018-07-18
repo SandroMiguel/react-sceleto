@@ -1,6 +1,6 @@
 {
   "name": "react-sceleto",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Sample React file structure.",
   "dependencies": {
     "react": "^16.4.1",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SandroMiguel/react-file-structure.git"
+    "url": "git+https://github.com/SandroMiguel/react-sceleto.git"
   },
   "keywords": [
     "react",
@@ -25,7 +25,7 @@
   "author": "Sandro Miguel Marques",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SandroMiguel/react-file-structure/issues"
+    "url": "https://github.com/SandroMiguel/react-sceleto/issues"
   },
-  "homepage": "https://github.com/SandroMiguel/react-file-structure#readme"
+  "homepage": "https://github.com/SandroMiguel/react-sceleto#readme"
 }
