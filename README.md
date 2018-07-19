@@ -1,7 +1,7 @@
 <p align="center"><img src="http://sandromiguel.com/host/react-sceleto.png" alt="React Sceleto" /></p>
 
 # Welcome to React Sceleto
-**React Sceleto is a React file structure with the basic 
+**React Sceleto is a React directory structure with the basic 
 [Create React App](https://github.com/facebook/create-react-app) files.**
 
 [![license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE)
@@ -10,7 +10,7 @@ The inspirational skeleton in React
 
 Current version: **0.2.0**
 
-## File structure
+## Directory structure
 ```
 your-react-app/
 ├── public/
@@ -46,14 +46,28 @@ your-react-app/
 
 ## Getting Started
 
-### Option #1 - Clone the repo
+### Step 1 - Install this directory structure
+#### Option #1 - Clone this repo
 Create a new directory and clone the repo.
 ```
 git clone https://github.com/SandroMiguel/react-sceleto.git your-react-app
 ```
 
-### Option #2 - Download
+#### Option #2 - Download
 Download the [latest release](https://github.com/SandroMiguel/react-sceleto/archive/v.0.2.zip)
+
+### Step 2 - Install the dependencies
+Install the dependencies with Yarn or npm.
+```
+cd your-react-app   # your project name
+yarn                # or npm i
+```
+
+### Step 3 - Run application
+Start the application with hot reload.
+```
+yarn start          # or npm start
+```
 
 ## Contributing
 Want to contribute? Just make a pull request. All contributions are welcome.
