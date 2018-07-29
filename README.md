@@ -1,4 +1,4 @@
-<p align="center"><img src="http://sandromiguel.com/host/react-sceleto.png" alt="React Sceleto" /></p>
+<p align="center"><img src="http://sandromiguel.com/host/react-sceleto_03.png" alt="React Sceleto" /></p>
 
 # Welcome to React Sceleto
 **React Sceleto is a React directory structure with the basic 
@@ -8,7 +8,7 @@
 
 The inspirational skeleton in React
 
-Current version: **0.2.0**
+Current version: **0.3.0**
 
 ## Directory structure
 ```
@@ -41,6 +41,7 @@ your-react-app/
 │
 ├── .gitignore
 ├── .editorconfig
+├── .eslintrc.js
 ├── package.json
 ├── README.md
 └── yarn.lock
@@ -71,6 +72,12 @@ Start the application with hot reload.
 yarn start          # or npm start
 ```
 
+## Run ESLint
+Run JavaScript syntax check to improve your code quality.
+```
+yarn eslint          # or npm eslint
+```
+
 ## Files and Folders
 Files and folders overview.
 
@@ -87,7 +94,7 @@ Files and folders overview.
 | src/**assets/** | Static resources eg. images, pdf, etc. |
 | src/assets/**some_image.png** | Image file example |
 | src/**utils/** | Helper files eg. error handlers, formatters, etc. |
-| src/utils/someUtil.js** | Util file example |
+| src/utils/**someUtil.js** | Util file example |
 | src/**index.js** | JS entry point for the application |
 | src/**index.css** | CSS file for index.js |
 | src/**App.js** | Include your main components |
@@ -96,9 +103,17 @@ Files and folders overview.
 | src/**registerServiceWorker.js** | Service Worker API for offline capabilities |
 | **.gitignore** | Files and directories that Git should ignore |
 | **.editorconfig** | IDE coding style |
+| **.eslintrc.js** | ESLint configuration |
 | **package.json** | Package configuration |
 | **README.md** | This document |
 | **yarn.lock** | Dependencies information for Yarn |
+
+## Credits
+- Base code - Facebook [Create React App](https://github.com/facebook/create-react-app)
+- Linting - [ESLint](https://eslint.org/)
+- Javascript specs - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+- Logo skeleton - made by [Freepik](http://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/) is 
+licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
 
 ## Contributing
 Want to contribute? Just make a pull request. All contributions are welcome.

@@ -11,7 +11,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "eslint": "eslint src/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,12 @@
   "bugs": {
     "url": "https://github.com/SandroMiguel/react-sceleto/issues"
   },
-  "homepage": "https://github.com/SandroMiguel/react-sceleto#readme"
+  "homepage": "https://github.com/SandroMiguel/react-sceleto#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
+    "eslint-plugin-react": "^7.10.0"
+  }
 }
