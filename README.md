@@ -1,4 +1,4 @@
-<p align="center"><img src="http://sandromiguel.com/host/react-sceleto.png" alt="React Sceleto" /></p>
+<p align="center"><img src="http://sandromiguel.com/host/react-sceleto_02.png" alt="React Sceleto" /></p>
 
 # Welcome to React Sceleto
 **React Sceleto is a React directory structure with the basic 
