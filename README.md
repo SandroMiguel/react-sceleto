@@ -109,9 +109,10 @@ Files and folders overview.
 | **yarn.lock** | Dependencies information for Yarn |
 
 ## Credits
-- Base code - Facebook [Create React App](https://github.com/facebook/create-react-app)
+- Code base - Facebook [Create React App](https://github.com/facebook/create-react-app)
 - Linting - [ESLint](https://eslint.org/)
 - Javascript specs - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+- IDE coding style - [EditorConfig](https://editorconfig.org/)
 - Logo skeleton - made by [Freepik](http://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/) is 
 licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
 
