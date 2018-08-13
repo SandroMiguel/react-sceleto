@@ -1,10 +1,10 @@
 {
   "name": "react-sceleto",
-  "version": "0.2.0",
+  "version": "0.3.1",
   "description": "Sample React file structure.",
   "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
     "react-scripts": "1.1.4"
   },
   "scripts": {
