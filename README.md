@@ -117,7 +117,7 @@ Files and folders overview.
 licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
 
 ## Contributing
-Want to contribute? Just make a pull request. All contributions are welcome.
+Want to contribute? All contributions are welcome. Read the [contributing guide](CONTRIBUTING.md).
 
 ## Questions
 If you have questions tweet me at [@SandroMiguel77](https://twitter.com/SandroMiguel77) or [open an issue](https://github.com/SandroMiguel/react-sceleto/issues/new).
