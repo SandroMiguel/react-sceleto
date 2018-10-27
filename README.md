@@ -20,9 +20,9 @@ your-react-app/
 │
 ├── src/
 │   ├── components/
-│   │   ├── [SomeComponent/]
+│   │   ├── [SomeComponent]/
 │   │   |   └── [SomeComponent].js
-│   │   ├── [OtherComponent/]
+│   │   ├── [OtherComponent]/
 │   │   |   └── [OtherComponent].js
 │   │   ├── ...
 │   ├── assets/
@@ -43,6 +43,7 @@ your-react-app/
 ├── .editorconfig
 ├── .eslintrc.js
 ├── package.json
+├── LICENSE
 ├── README.md
 └── yarn.lock
 ```
@@ -105,6 +106,7 @@ Files and folders overview.
 | **.editorconfig** | IDE coding style |
 | **.eslintrc.js** | ESLint configuration |
 | **package.json** | Package configuration |
+| **LICENSE** | License document |
 | **README.md** | This document |
 | **yarn.lock** | Dependencies information for Yarn |
 
