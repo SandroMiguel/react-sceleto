@@ -58,7 +58,7 @@ git clone https://github.com/SandroMiguel/react-sceleto.git your-react-app
 ```
 
 #### Option #2 - Download
-Download the [latest release](https://github.com/SandroMiguel/react-sceleto/archive/v.0.2.zip)
+Download the [latest release](https://github.com/SandroMiguel/react-sceleto/archive/v.0.3.zip)
 
 ### Step 2 - Install the dependencies
 Install the dependencies with Yarn or npm.
