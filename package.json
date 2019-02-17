@@ -1,19 +1,9 @@
 {
   "name": "react-sceleto",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Sample React file structure.",
-  "dependencies": {
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-scripts": "1.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "eslint": "eslint src/**/*.js"
-  },
+  "dependencies": {},
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SandroMiguel/react-sceleto.git"
@@ -30,11 +20,5 @@
     "url": "https://github.com/SandroMiguel/react-sceleto/issues"
   },
   "homepage": "https://github.com/SandroMiguel/react-sceleto#readme",
-  "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^17.0.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.1.0",
-    "eslint-plugin-react": "^7.10.0"
-  }
+  "devDependencies": {}
 }

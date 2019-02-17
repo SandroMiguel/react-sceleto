@@ -1,22 +1,19 @@
 <p align="center"><img src="http://sandromiguel.com/host/react-sceleto_03.png" alt="React Sceleto" /></p>
 
 # Welcome to React Sceleto
-**React Sceleto is a React directory structure with the basic 
-[Create React App](https://github.com/facebook/create-react-app) files.**
+**React Sceleto is an opinionated React directory structure.**
 
 [![license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE)
 
 The inspirational skeleton in React
 
-Current version: **0.3.1**
+Current version: **0.4.0**
 
 ## Directory structure
 ```
 your-react-app/
 ├── public/
-│   ├── index.html
-│   ├── favicon.ico
-│   └── manifest.json
+│   ├── ...
 │
 ├── src/
 │   ├── components/
@@ -37,7 +34,7 @@ your-react-app/
 │   ├── App.js
 │   ├── App.css
 │   ├── App.test.js
-│   └── registerServiceWorker.js
+│   └── ...
 │
 ├── .gitignore
 ├── .editorconfig
@@ -48,46 +45,12 @@ your-react-app/
 └── yarn.lock
 ```
 
-## Getting Started
-
-### Step 1 - Install this directory structure
-#### Option #1 - Clone this repo
-Create a new directory and clone the repo.
-```
-git clone https://github.com/SandroMiguel/react-sceleto.git your-react-app
-```
-
-#### Option #2 - Download
-Download the [latest release](https://github.com/SandroMiguel/react-sceleto/archive/v.0.3.zip)
-
-### Step 2 - Install the dependencies
-Install the dependencies with Yarn or npm.
-```
-cd your-react-app   # your project name
-yarn                # or npm i
-```
-
-### Step 3 - Run application
-Start the application with hot reload.
-```
-yarn start          # or npm start
-```
-
-## Run ESLint
-Run JavaScript syntax check to improve your code quality.
-```
-yarn eslint          # or npm eslint
-```
-
 ## Files and Folders
 Files and folders overview.
 
 | File/Folder | Description |
 | --- | --- |
 | **public/** | Build output folder |
-| public/**index.html** | HTML entry point for the application |
-| public/**favicon.ico** | Favicon |
-| public/**manifest.json** | Manifest properties |
 | **src/** | The source code of the application |
 | src/**components/** | React components |
 | src/components/**SomeComponent/** | React component folder example |
@@ -101,7 +64,6 @@ Files and folders overview.
 | src/**App.js** | Include your main components |
 | src/**App.js** | CSS file for App.js |
 | src/**App.test.js** | Unit tests for App.js |
-| src/**registerServiceWorker.js** | Service Worker API for offline capabilities |
 | **.gitignore** | Files and directories that Git should ignore |
 | **.editorconfig** | IDE coding style |
 | **.eslintrc.js** | ESLint configuration |
@@ -111,7 +73,6 @@ Files and folders overview.
 | **yarn.lock** | Dependencies information for Yarn |
 
 ## Credits
-- Code base - Facebook [Create React App](https://github.com/facebook/create-react-app)
 - Linting - [ESLint](https://eslint.org/)
 - Javascript specs - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 - IDE coding style - [EditorConfig](https://editorconfig.org/)
@@ -122,7 +83,7 @@ licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
 Want to contribute? All contributions are welcome. Read the [contributing guide](CONTRIBUTING.md).
 
 ## Questions
-If you have questions tweet me at [@SandroMiguel77](https://twitter.com/SandroMiguel77) or [open an issue](https://github.com/SandroMiguel/react-sceleto/issues/new).
+If you have questions tweet me at [@sandro_m_m](https://twitter.com/sandro_m_m) or [open an issue](https://github.com/SandroMiguel/react-sceleto/issues/new).
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
