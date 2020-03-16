@@ -1,9 +1,21 @@
 {
   "name": "react-sceleto",
-  "version": "0.4.0",
-  "description": "Sample React file structure.",
+  "version": "1.0.0",
+  "description": "Sample file structure for React projects.",
   "dependencies": {},
-  "scripts": {},
+  "scripts": {
+    "release": "standard-version"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SandroMiguel/react-sceleto.git"
@@ -20,5 +32,11 @@
     "url": "https://github.com/SandroMiguel/react-sceleto/issues"
   },
   "homepage": "https://github.com/SandroMiguel/react-sceleto#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "cz-conventional-changelog": "^3.1.0",
+    "husky": "^4.2.3",
+    "standard-version": "^7.1.0"
+  }
 }
