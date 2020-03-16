@@ -1,27 +1,41 @@
 <p align="center"><img src="http://sandromiguel.com/host/react-sceleto_03.png" alt="React Sceleto" /></p>
 
 # Welcome to React Sceleto
+
 **React Sceleto is an opinionated React directory structure.**
 
 [![license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE)
 
 The inspirational skeleton in React
 
-Current version: **0.4.0**
-
 ## Directory structure
+
 ```
 your-react-app/
 ├── public/
 │   ├── ...
 │
 ├── src/
+│   ├── pages/
+│   │   ├── [SomePage]/
+│   │   |   ├── [SomePage].js
+│   │   |   └── [SomePage].css
+│   │   ├── ...
 │   ├── components/
 │   │   ├── [SomeComponent]/
-│   │   |   └── [SomeComponent].js
+│   │   |   ├── [SomeComponent].js
+│   │   |   └── [SomeComponent].css
 │   │   ├── [OtherComponent]/
-│   │   |   └── [OtherComponent].js
+│   │   |   ├── [OtherComponent].js
+│   │   |   └── [OtherComponent].css
 │   │   ├── ...
+│   ├── config/
+│   │   ├── routes.js
+│   │   ├── ...
+│   ├── styles/
+│   │   ├── app.css
+│   │   ├── shared.css
+│   │   └── shared-colors.css
 │   ├── assets/
 │   │   ├── [some_image].png
 │   │   ├── [some_image].svg
@@ -29,12 +43,7 @@ your-react-app/
 │   ├── utils/
 │   │   ├── [someUtil].js
 │   │   ├── ...
-│   ├── index.js
-│   ├── index.css
-│   ├── App.js
-│   ├── App.css
-│   ├── App.test.js
-│   └── ...
+│   └── index.js
 │
 ├── .gitignore
 ├── .editorconfig
@@ -46,46 +55,58 @@ your-react-app/
 ```
 
 ## Files and Folders
+
 Files and folders overview.
 
-| File/Folder | Description |
-| --- | --- |
-| **public/** | Build output folder |
-| **src/** | The source code of the application |
-| src/**components/** | React components |
-| src/components/**SomeComponent/** | React component folder example |
-| src/components/SomeComponent/**SomeComponent.js** | React component file example |
-| src/**assets/** | Static resources eg. images, pdf, etc. |
-| src/assets/**some_image.png** | Image file example |
-| src/**utils/** | Helper files eg. error handlers, formatters, etc. |
-| src/utils/**someUtil.js** | Util file example |
-| src/**index.js** | JS entry point for the application |
-| src/**index.css** | CSS file for index.js |
-| src/**App.js** | Include your main components |
-| src/**App.js** | CSS file for App.js |
-| src/**App.test.js** | Unit tests for App.js |
-| **.gitignore** | Files and directories that Git should ignore |
-| **.editorconfig** | IDE coding style |
-| **.eslintrc.js** | ESLint configuration |
-| **package.json** | Package configuration |
-| **LICENSE** | License document |
-| **README.md** | This document |
-| **yarn.lock** | Dependencies information for Yarn |
+| File/Folder                                        | Description                                       |
+| -------------------------------------------------- | ------------------------------------------------- |
+| **public/**                                        | Build output folder                               |
+| **src/**                                           | The source code of the application                |
+| src/**pages/**                                     | Application pages                                 |
+| src/pages/**SomePage/**                            | Application page example                          |
+| src/pages/SomePage/**SomePage.js**                 | Application page file example                     |
+| src/pages/SomePage/**SomePage.css**                | CSS file for SomePage.js                          |
+| src/**components/**                                | React components                                  |
+| src/components/**SomeComponent/**                  | React component folder example                    |
+| src/components/SomeComponent/**SomeComponent.js**  | React component file example                      |
+| src/components/SomeComponent/**SomeComponent.css** | CSS file for SomeComponent.js                     |
+| src/**config/**                                    | Configurations                                    |
+| src/config/**routes.js**                           | React Router routes                               |
+| src/**styles/**                                    | Configurations                                    |
+| src/styles/**app.css**                             | Global app styles                                 |
+| src/styles/**shared.css**                          | Shared styles (e.g.: Typography)                  |
+| src/styles/**shared-colors.css**                   | Shared colors                                     |
+| src/**assets/**                                    | Static resources eg. images, pdf, etc.            |
+| src/assets/**some_image.png**                      | Image file example                                |
+| src/**utils/**                                     | Helper files eg. error handlers, formatters, etc. |
+| src/utils/**someUtil.js**                          | Util file example                                 |
+| src/**index.js**                                   | JS entry point for the application                |
+| **.gitignore**                                     | Files and directories that Git should ignore      |
+| **.editorconfig**                                  | IDE coding style                                  |
+| **.eslintrc.js**                                   | ESLint configuration                              |
+| **package.json**                                   | Package configuration                             |
+| **LICENSE**                                        | License document                                  |
+| **README.md**                                      | This document                                     |
+| **yarn.lock**                                      | Dependencies information for Yarn                 |
 
 ## Credits
+
 - Linting - [ESLint](https://eslint.org/)
 - Javascript specs - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 - IDE coding style - [EditorConfig](https://editorconfig.org/)
-- Logo skeleton - made by [Freepik](http://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/) is 
-licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
+- Logo skeleton - made by [Freepik](http://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/) is
+  licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
 
 ## Contributing
+
 Want to contribute? All contributions are welcome. Read the [contributing guide](CONTRIBUTING.md).
 
 ## Questions
+
 If you have questions tweet me at [@sandro_m_m](https://twitter.com/sandro_m_m) or [open an issue](https://github.com/SandroMiguel/react-sceleto/issues/new).
 
 ## License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 **~ sharing is caring ~**
