@@ -20,6 +20,9 @@ your-react-app/
 │   │   ├── [SomePage]/
 │   │   |   ├── [SomePage].js
 │   │   |   └── [SomePage].css
+│   │   ├── [OtherPage]/
+│   │   |   ├── [OtherPage].js
+│   │   |   └── [OtherPage].css
 │   │   ├── ...
 │   ├── components/
 │   │   ├── [SomeComponent]/
@@ -58,36 +61,36 @@ your-react-app/
 
 Files and folders overview.
 
-| File/Folder                                        | Description                                       |
-| -------------------------------------------------- | ------------------------------------------------- |
-| **public/**                                        | Build output folder                               |
-| **src/**                                           | The source code of the application                |
-| src/**pages/**                                     | Application pages                                 |
-| src/pages/**SomePage/**                            | Application page example                          |
-| src/pages/SomePage/**SomePage.js**                 | Application page file example                     |
-| src/pages/SomePage/**SomePage.css**                | CSS file for SomePage.js                          |
-| src/**components/**                                | React components                                  |
-| src/components/**SomeComponent/**                  | React component folder example                    |
-| src/components/SomeComponent/**SomeComponent.js**  | React component file example                      |
-| src/components/SomeComponent/**SomeComponent.css** | CSS file for SomeComponent.js                     |
-| src/**config/**                                    | Configurations                                    |
-| src/config/**routes.js**                           | React Router routes                               |
-| src/**styles/**                                    | Configurations                                    |
-| src/styles/**app.css**                             | Global app styles                                 |
-| src/styles/**shared.css**                          | Shared styles (e.g.: Typography)                  |
-| src/styles/**shared-colors.css**                   | Shared colors                                     |
-| src/**assets/**                                    | Static resources eg. images, pdf, etc.            |
-| src/assets/**some_image.png**                      | Image file example                                |
-| src/**utils/**                                     | Helper files eg. error handlers, formatters, etc. |
-| src/utils/**someUtil.js**                          | Util file example                                 |
-| src/**index.js**                                   | JS entry point for the application                |
-| **.gitignore**                                     | Files and directories that Git should ignore      |
-| **.editorconfig**                                  | IDE coding style                                  |
-| **.eslintrc.js**                                   | ESLint configuration                              |
-| **package.json**                                   | Package configuration                             |
-| **LICENSE**                                        | License document                                  |
-| **README.md**                                      | This document                                     |
-| **yarn.lock**                                      | Dependencies information for Yarn                 |
+| File/Folder                                        | Description                                          |
+| -------------------------------------------------- | ---------------------------------------------------- |
+| **public/**                                        | Build output folder                                  |
+| **src/**                                           | The source code of the application                   |
+| src/**pages/**                                     | Application pages                                    |
+| src/pages/**SomePage/**                            | Application page folder example                      |
+| src/pages/SomePage/**SomePage.js**                 | Application page file example                        |
+| src/pages/SomePage/**SomePage.css**                | CSS file for SomePage.js                             |
+| src/**components/**                                | React components                                     |
+| src/components/**SomeComponent/**                  | React component folder example                       |
+| src/components/SomeComponent/**SomeComponent.js**  | React component file example                         |
+| src/components/SomeComponent/**SomeComponent.css** | CSS file for SomeComponent.js                        |
+| src/**config/**                                    | Configurations                                       |
+| src/config/**routes.js**                           | React Router routes                                  |
+| src/**styles/**                                    | CSS styles                                           |
+| src/styles/**app.css**                             | Global app styles                                    |
+| src/styles/**shared.css**                          | Shared styles (e.g. Typography)                      |
+| src/styles/**shared-colors.css**                   | Shared colors                                        |
+| src/**assets/**                                    | Static resources (e.g. images, pdf, etc.)            |
+| src/assets/**some_image.png**                      | Image file example                                   |
+| src/**utils/**                                     | Helper files (e.g. error handlers, formatters, etc.) |
+| src/utils/**someUtil.js**                          | Util file example                                    |
+| src/**index.js**                                   | JS entry point for the application                   |
+| **.gitignore**                                     | Files and directories that Git should ignore         |
+| **.editorconfig**                                  | IDE coding style                                     |
+| **.eslintrc.js**                                   | ESLint configuration                                 |
+| **package.json**                                   | Package configuration                                |
+| **LICENSE**                                        | License document                                     |
+| **README.md**                                      | This document                                        |
+| **yarn.lock**                                      | Dependencies information for Yarn                    |
 
 ## Credits
 
