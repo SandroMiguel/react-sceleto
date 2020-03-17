@@ -77,7 +77,7 @@ Files and folders overview.
 | src/config/**routes.js**                           | React Router routes                                  |
 | src/**styles/**                                    | CSS styles                                           |
 | src/styles/**app.css**                             | Global app styles                                    |
-| src/styles/**shared.css**                          | Shared styles (e.g. Typography)                      |
+| src/styles/**shared.css**                          | Shared styles (e.g. typography)                      |
 | src/styles/**shared-colors.css**                   | Shared colors                                        |
 | src/**assets/**                                    | Static resources (e.g. images, pdf, etc.)            |
 | src/assets/**some_image.png**                      | Image file example                                   |
