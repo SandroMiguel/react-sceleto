@@ -24,6 +24,7 @@ your-react-app/
 │   │   |   ├── [OtherPage].js
 │   │   |   └── [OtherPage].css
 │   │   ├── ...
+│   │
 │   ├── components/
 │   │   ├── [SomeComponent]/
 │   │   |   ├── [SomeComponent].js
@@ -32,20 +33,29 @@ your-react-app/
 │   │   |   ├── [OtherComponent].js
 │   │   |   └── [OtherComponent].css
 │   │   ├── ...
+│   │
+│   ├── hooks/
+│   │   ├── use[SomeHook].js
+│   │   ├── ...
+│   │
 │   ├── config/
 │   │   ├── routes.js
 │   │   ├── ...
+│   │
 │   ├── styles/
 │   │   ├── app.css
 │   │   ├── shared.css
 │   │   └── shared-colors.css
+│   │
 │   ├── assets/
 │   │   ├── [some_image].png
 │   │   ├── [some_image].svg
 │   │   ├── ...
+│   │
 │   ├── utils/
 │   │   ├── [someUtil].js
 │   │   ├── ...
+│   │
 │   └── index.js
 │
 ├── .gitignore
@@ -73,6 +83,8 @@ Files and folders overview.
 | src/components/**SomeComponent/**                  | React component folder example                       |
 | src/components/SomeComponent/**SomeComponent.js**  | React component file example                         |
 | src/components/SomeComponent/**SomeComponent.css** | CSS file for SomeComponent.js                        |
+| src/**hooks/**                                     | Custom hooks                                         |
+| src/hooks/**useSomeHook.js**                       | Custom hook example                                  |
 | src/**config/**                                    | Configurations                                       |
 | src/config/**routes.js**                           | React Router routes                                  |
 | src/**styles/**                                    | CSS styles                                           |
