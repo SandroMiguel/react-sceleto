@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/SandroMiguel/react-sceleto/compare/v1.0.2...v1.1.0) (2020-10-27)
+
+
+### Features
+
+* add hooks/ directory ([5355b1b](https://github.com/SandroMiguel/react-sceleto/commit/5355b1b220770ed668739d077329501ccd66a562))
+* add index files ([29ef93b](https://github.com/SandroMiguel/react-sceleto/commit/29ef93b7100ad453f7339f2a9a5c5b2f2d3c88f2))
+
 ### [1.0.2](https://github.com/SandroMiguel/react-sceleto/compare/v1.0.1...v1.0.2) (2020-03-17)
 
 ### [1.0.1](https://github.com/SandroMiguel/react-sceleto/compare/v1.0.0...v1.0.1) (2020-03-16)
