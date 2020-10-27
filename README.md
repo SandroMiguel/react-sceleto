@@ -17,19 +17,25 @@ your-react-app/
 │
 ├── src/
 │   ├── pages/
+│   │   ├── index.js
 │   │   ├── [SomePage]/
+│   │   |   ├── index.js
 │   │   |   ├── [SomePage].js
 │   │   |   └── [SomePage].css
 │   │   ├── [OtherPage]/
+│   │   |   ├── index.js
 │   │   |   ├── [OtherPage].js
 │   │   |   └── [OtherPage].css
 │   │   ├── ...
 │   │
 │   ├── components/
+│   │   ├── index.js
 │   │   ├── [SomeComponent]/
+│   │   |   ├── index.js
 │   │   |   ├── [SomeComponent].js
 │   │   |   └── [SomeComponent].css
 │   │   ├── [OtherComponent]/
+│   │   |   ├── index.js
 │   │   |   ├── [OtherComponent].js
 │   │   |   └── [OtherComponent].css
 │   │   ├── ...
@@ -76,11 +82,15 @@ Files and folders overview.
 | **public/**                                        | Build output folder                                  |
 | **src/**                                           | The source code of the application                   |
 | src/**pages/**                                     | Application pages                                    |
+| src/pages/**index.js**                             | Exports all pages                                    |
 | src/pages/**SomePage/**                            | Application page folder example                      |
+| src/pages/SomePage/**index.js**                    | Re-exports the component                             |
 | src/pages/SomePage/**SomePage.js**                 | Application page file example                        |
 | src/pages/SomePage/**SomePage.css**                | CSS file for SomePage.js                             |
 | src/**components/**                                | React components                                     |
+| src/components/**index.js**                        | Exports all components                               |
 | src/components/**SomeComponent/**                  | React component folder example                       |
+| src/components/SomeComponent/**index.js**          | Re-exports the component                             |
 | src/components/SomeComponent/**SomeComponent.js**  | React component file example                         |
 | src/components/SomeComponent/**SomeComponent.css** | CSS file for SomeComponent.js                        |
 | src/**hooks/**                                     | Custom hooks                                         |
