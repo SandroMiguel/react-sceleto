@@ -41,6 +41,7 @@ your-react-app/
 │   │   ├── ...
 │   │
 │   ├── hooks/
+│   │   ├── index.js
 │   │   ├── use[SomeHook].js
 │   │   ├── ...
 │   │
@@ -94,6 +95,7 @@ Files and folders overview.
 | src/components/SomeComponent/**SomeComponent.js**  | React component file example                         |
 | src/components/SomeComponent/**SomeComponent.css** | CSS file for SomeComponent.js                        |
 | src/**hooks/**                                     | Custom hooks                                         |
+| src/hooks/**index.js**                             | Exports all custom hooks                             |
 | src/hooks/**useSomeHook.js**                       | Custom hook example                                  |
 | src/**config/**                                    | Configurations                                       |
 | src/config/**routes.js**                           | React Router routes                                  |
