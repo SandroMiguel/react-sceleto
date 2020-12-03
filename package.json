@@ -1,6 +1,6 @@
 {
   "name": "react-sceleto",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Sample file structure for React projects.",
   "scripts": {
     "release": "standard-version"
