@@ -2,7 +2,6 @@
   "name": "react-sceleto",
   "version": "1.2.0",
   "description": "Sample file structure for React projects.",
-  "dependencies": {},
   "scripts": {
     "release": "standard-version"
   },
@@ -32,6 +31,7 @@
     "url": "https://github.com/SandroMiguel/react-sceleto/issues"
   },
   "homepage": "https://github.com/SandroMiguel/react-sceleto#readme",
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
