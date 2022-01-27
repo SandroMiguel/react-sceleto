@@ -3,16 +3,13 @@
   "version": "1.3.0",
   "description": "Sample file structure for React projects.",
   "scripts": {
-    "release": "standard-version"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
+    "release": "standard-version",
+    "postinstall": "husky install"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog",
+      "disableScopeLowerCase": true
     }
   },
   "repository": {
@@ -33,10 +30,10 @@
   "homepage": "https://github.com/SandroMiguel/react-sceleto#readme",
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
-    "cz-conventional-changelog": "^3.1.0",
-    "husky": "^4.2.3",
-    "standard-version": "^9.0.0"
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.4",
+    "standard-version": "^9.3.2"
   }
 }
