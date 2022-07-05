@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.2](https://github.com/SandroMiguel/react-sceleto/compare/v1.3.1...v1.3.2) (2022-07-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependecies ([1fbefb4](https://github.com/SandroMiguel/react-sceleto/commit/1fbefb44bd2cbd47d1bad42b8a6ca2141f8cb0bd))
+
 ### [1.3.1](https://github.com/SandroMiguel/react-sceleto/compare/v1.3.0...v1.3.1) (2022-01-27)
 
 
