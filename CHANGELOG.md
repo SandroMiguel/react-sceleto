@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/SandroMiguel/react-sceleto/compare/v1.3.2...v1.4.0) (2022-07-06)
+
+
+### Features
+
+* add AppRoutes.js ([f4f80a4](https://github.com/SandroMiguel/react-sceleto/commit/f4f80a4aa51a5476115066a64d0f6d668a1a67dc))
+
 ### [1.3.2](https://github.com/SandroMiguel/react-sceleto/compare/v1.3.1...v1.3.2) (2022-07-05)
 
 
