@@ -74,7 +74,8 @@ your-react-app/
 ├── package.json
 ├── LICENSE
 ├── README.md
-└── yarn.lock
+├── yarn.lock
+└── AppRoutes.js
 ```
 
 ## Files and Folders
@@ -119,6 +120,7 @@ Files and folders overview.
 | **LICENSE**                                        | License document                                       |
 | **README.md**                                      | This document                                          |
 | **yarn.lock**                                      | Dependencies information for Yarn                      |
+| **AppRoutes.js**                                   | Application routes                                     |
 
 ## Credits
 
