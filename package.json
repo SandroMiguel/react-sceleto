@@ -1,14 +1,32 @@
 {
   "name": "react-sceleto",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "description": "Sample file structure for React projects.",
   "scripts": {
-    "release": "standard-version",
-    "postinstall": "husky install"
+    "start": "webpack --mode development --watch --progress",
+    "lint": "eslint src --ext js",
+    "lint:fix": "eslint src --ext js --fix",
+    "format": "prettier --write 'src/**/*.{js,json,css}'",
+    "format:php": "prettier",
+    "stylelint": "stylelint './src/**/*.{css,scss}'",
+    "stylelint:fix": "stylelint './src/**/*.{css,scss}' --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:phpunit": "./vendor/bin/phpunit --colors=always",
+    "e2e": "cypress open",
+    "increment-build": "node buildIncrementer.js",
+    "build": "yarn increment-build && webpack --mode production --progress",
+    "release": "git pull && yarn build && git add . && git commit -m 'build to production' --no-verify && git push",
+    "sync:cecilia-css": "rsync -r -t --progress --delete ../cecilia-css/ ./node_modules/cecilia-css/",
+    "sync:ubiquitous-components": "rsync -r -t --progress --delete ../ubiquitous-components/lib/ ./node_modules/ubiquitous-components/lib/ && yarn start",
+    "sync:verum-php": "rsync -r -t --progress --delete ../verum-php/src/ ./vendor/sandromiguel/verum-php/src/",
+    "upgrade-deps": "yarn upgrade-interactive --latest",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog",
+      "path": "cz-conventional-changelog",
       "disableScopeLowerCase": true
     }
   },
@@ -29,10 +47,10 @@
   },
   "homepage": "https://github.com/SandroMiguel/react-sceleto#readme",
   "devDependencies": {
-    "@commitlint/cli": "^17.0.3",
-    "@commitlint/config-conventional": "^17.0.3",
+    "@commitlint/cli": "^17.7.2",
+    "@commitlint/config-conventional": "^17.7.0",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^8.0.1",
+    "husky": "^8.0.3",
     "standard-version": "^9.5.0"
   }
 }
