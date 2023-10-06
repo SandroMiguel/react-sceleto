@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/SandroMiguel/react-sceleto/compare/v1.4.0...v1.5.0) (2023-10-06)
+
+
+### Features
+
+* add theme.css ([cdefb88](https://github.com/SandroMiguel/react-sceleto/commit/cdefb889efb12a53085e437f10bb4d07005cf744))
+* **package.json:** update scripts ([6e335ee](https://github.com/SandroMiguel/react-sceleto/commit/6e335ee954e4276bd3139b7fea111f42377cb396))
+* setup release-please ([6eb77b4](https://github.com/SandroMiguel/react-sceleto/commit/6eb77b436c2b60538ee3388b10616fcf695a05a0))
+* update .gitignore ([2018595](https://github.com/SandroMiguel/react-sceleto/commit/2018595a860bbc029b345044f41ba0714debddff))
+
 ## [1.4.0](https://github.com/SandroMiguel/react-sceleto/compare/v1.3.2...v1.4.0) (2022-07-06)
 
 
