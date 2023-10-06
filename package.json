@@ -28,7 +28,6 @@
     "url": "https://github.com/SandroMiguel/react-sceleto/issues"
   },
   "homepage": "https://github.com/SandroMiguel/react-sceleto#readme",
-  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
