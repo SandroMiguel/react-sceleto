@@ -1,6 +1,6 @@
 {
   "name": "react-sceleto",
-  "version": "2.0.0",
+  "version": "1.5.0",
   "description": "Sample file structure for React projects.",
   "scripts": {
     "start": "webpack --mode development --watch --progress",
