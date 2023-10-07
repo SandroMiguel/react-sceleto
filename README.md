@@ -63,6 +63,10 @@ your-react-app/
 │   │   ├── routes.js
 │   │   ├── ...
 │   │
+│   ├── context/
+│   │   ├── [someContext]/
+│   │   ├── ...
+│   │
 │   ├── assets/
 |   │   ├── images/
 |   │   │   ├── index.js
@@ -92,7 +96,7 @@ your-react-app/
 
 ## Files and Folders
 
-Files and folders overview.
+Overview of files and folders.
 
 | File/Folder                                            | Description                                            |
 | ------------------------------------------------------ | ------------------------------------------------------ |
@@ -100,36 +104,38 @@ Files and folders overview.
 | **src/**                                               | The source code of the application                     |
 | src/**pages/**                                         | Application pages                                      |
 | src/pages/**index.js**                                 | Exports all pages                                      |
-| src/pages/**SomePage/**                                | Application page folder example                        |
+| src/pages/**SomePage/**                                | Example folder for an application page                 |
 | src/pages/SomePage/**index.js**                        | Re-exports the component                               |
-| src/pages/SomePage/**SomePage.js**                     | Application page file example                          |
+| src/pages/SomePage/**SomePage.js**                     | Example file for an application page                   |
 | src/pages/SomePage/**SomePage.scss**                   | CSS file for SomePage.js                               |
 | src/**components/**                                    | Reusable React components                              |
 | src/components/**index.js**                            | Exports all components                                 |
-| src/components/**SomeComponent/**                      | React component folder example                         |
+| src/components/**SomeComponent/**                      | Example folder for a React component                   |
 | src/components/SomeComponent/**index.js**              | Re-exports the component                               |
-| src/components/SomeComponent/**SomeComponent.js**      | React component file example                           |
+| src/components/SomeComponent/**SomeComponent.js**      | Example file for a React component                     |
 | src/components/SomeComponent/**SomeComponent.scss**    | CSS file for SomeComponent.js                          |
 | src/**appComponents/**                                 | Application-specific React components                  |
 | src/appComponents/**index.js**                         | Exports all components                                 |
-| src/appComponents/**SomeComponent/**                   | React component folder example                         |
+| src/appComponents/**SomeComponent/**                   | Example folder for an application-specific component   |
 | src/appComponents/SomeComponent/**index.js**           | Re-exports the component                               |
-| src/appComponents/SomeComponent/**SomeComponent.js**   | React component file example                           |
+| src/appComponents/SomeComponent/**SomeComponent.js**   | Example file for an application-specific component     |
 | src/appComponents/SomeComponent/**SomeComponent.scss** | CSS file for SomeComponent.js                          |
 | src/**hooks/**                                         | Custom hooks                                           |
 | src/hooks/**index.js**                                 | Exports all custom hooks                               |
-| src/hooks/**useSomeHook.js**                           | Custom hook example                                    |
+| src/hooks/**useSomeHook.js**                           | Example custom hook                                    |
 | src/**config/**                                        | Configurations                                         |
 | src/config/**routes.js**                               | React Router routes                                    |
-| src/**assets/**                                        | Static resources (e.g. images, pdf, stylesheets, etc.) |
+| src/**context/**                                       | Global state management for React app                  |
+| src/context/**someContext**                            | Example folder for specific context management         |
+| src/**assets/**                                        | Static resources (e.g. images, PDFs, stylesheets, etc) |
 | src/assets/images/**index.js**                         | Exports all images                                     |
-| src/assets/images/**some-image.png**                   | Image file example                                     |
+| src/assets/images/**some-image.png**                   | Example image file                                     |
 | src/assets/**styles/**                                 | CSS styles                                             |
 | src/assets/styles/**theme.css**                        | Application-wide theme configuration.                  |
 | src/assets/styles/**shared.module.scss**               | Shared styles across components                        |
-| src/**utils/**                                         | Helper files (e.g. error handlers, formatters, etc.)   |
-| src/utils/**someUtil.js**                              | Util file example                                      |
-| src/**index.js**                                       | JS entry point for the application                     |
+| src/**utils/**                                         | Helper files (e.g. error handlers, formatters, etc)    |
+| src/utils/**someUtil.js**                              | Example utility file                                   |
+| src/**index.js**                                       | JavaScript entry point for the application             |
 | **.gitignore**                                         | Files and directories that Git should ignore           |
 | **.editorconfig**                                      | IDE coding style                                       |
 | **.eslintrc.js**                                       | ESLint configuration                                   |
