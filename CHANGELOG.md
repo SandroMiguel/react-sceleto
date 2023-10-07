@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/SandroMiguel/react-sceleto/compare/v1.5.0...v1.6.0) (2023-10-07)
+
+
+### Features
+
+* new directory: appComponents/ ([ae88263](https://github.com/SandroMiguel/react-sceleto/commit/ae88263e8f2cf7f69f9fbfbd56a079b828fe496d))
+
 ## [1.5.0](https://github.com/SandroMiguel/react-sceleto/compare/v1.4.0...v1.5.0) (2023-10-06)
 
 
