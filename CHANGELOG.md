@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/SandroMiguel/react-sceleto/compare/v1.6.0...v1.7.0) (2023-10-07)
+
+
+### Features
+
+* new directory: context/ ([540c946](https://github.com/SandroMiguel/react-sceleto/commit/540c9464b1f0d82b151352a57a89c52afac8878d))
+
 ## [1.6.0](https://github.com/SandroMiguel/react-sceleto/compare/v1.5.0...v1.6.0) (2023-10-07)
 
 
