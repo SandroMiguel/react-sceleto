@@ -11,10 +11,16 @@
 To start a new project based on this template, follow these steps:
 
 1. Go to the main page of the repository.
-2. Click on the "Use this template" button.
-3. Follow the instructions on the page to create a new repository based on this template.
-4. Start working on your new project!
-5. After creating your new project, don't forget to update the README with relevant information about your project. This will help others understand what your project is about and how to use it.
+1. Click on the "Use this template" button.
+1. Follow the instructions on the page to create a new repository based on this template.
+1. After creating your new project, don't forget to update the README with relevant information about your project. This will help others understand what your project is about and how to use it.
+1. Run the following command to install the project dependencies:
+
+   ```bash
+   yarn install
+   ```
+
+1. Start working on your new project!
 
 ## Directory structure
 
