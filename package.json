@@ -10,7 +10,7 @@
     "format:php": "prettier",
     "stylelint": "stylelint './src/**/*.{css,scss}'",
     "stylelint:fix": "stylelint './src/**/*.{css,scss}' --fix",
-    "test": "jest",
+    "test": "jest --detectOpenHandles --forceExit",
     "test:watch": "jest --watch",
     "test:phpunit": "./vendor/bin/phpunit --colors=always",
     "e2e": "cypress open",
