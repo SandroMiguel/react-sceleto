@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/SandroMiguel/react-sceleto/compare/v1.7.0...v1.8.0) (2024-04-19)
+
+
+### Features
+
+* add a jest test sample ([66e1a21](https://github.com/SandroMiguel/react-sceleto/commit/66e1a21d04a2363c4001ae158ef36badb337ac8a))
+* add jest ([72dda7a](https://github.com/SandroMiguel/react-sceleto/commit/72dda7a2829fc0a65a6a8530f41fd057f55e5a18))
+* add jest config file ([e6835f6](https://github.com/SandroMiguel/react-sceleto/commit/e6835f60c005fdb9086310222f462e8e1e031191))
+* setup eslint-config-cecilia ([1a2d7bc](https://github.com/SandroMiguel/react-sceleto/commit/1a2d7bc317413b4f8a4fa9cf3f9ef073a16c7610))
+
 ## [1.7.0](https://github.com/SandroMiguel/react-sceleto/compare/v1.6.0...v1.7.0) (2023-10-07)
 
 
