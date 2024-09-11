@@ -14,6 +14,7 @@
     "test:watch": "jest --watch",
     "test:phpunit": "./vendor/bin/phpunit --colors=always",
     "e2e": "cypress open",
+    "e2e:headless": "cypress run",
     "increment-build": "node buildIncrementer.js",
     "build": "yarn increment-build && webpack --mode production --progress",
     "release": "git pull && yarn build && git add . && git commit -m 'build to production' --no-verify && git push",
