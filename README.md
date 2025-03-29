@@ -35,7 +35,6 @@ your-react-app/
 │   │   |   ├── index.js
 │   │   |   ├── [OtherPage].js
 │   │   |   └── [OtherPage].scss
-│   │   |
 │   │   ├── ...
 │   │
 │   ├── components/
